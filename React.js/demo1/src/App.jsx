@@ -111,7 +111,7 @@ function App() {
             <input type="Mobile No" placeholder="Enter your number" />
             <br />
 
-            <button>submit</button>
+            <button>Enter</button>
         </div>
     </div>
   )
