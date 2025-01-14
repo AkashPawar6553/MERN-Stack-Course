@@ -1,5 +1,90 @@
-.button{
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+        font-family: "Manrope", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.Button{
     background: #ef6f22;
     border: none;
     border-radius: 29px;
 }
+
+.Arrow{
+    border: none;
+    height: 60px;
+}
+
+.Nav-link{
+    color: #1b2f57;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px;
+}
+.sub-title{
+    color: #ef7f22;
+    font-weight: bold;
+
+}
+.title-second{
+    color: #182f57;
+    font-weight: bold;
+
+}
+
+/* contactus form start */
+.Contact-from-input{
+    margin-bottom: 35px;
+    margin-left: 128px;
+    margin-top: 11px;
+    background: #f7f7f7;
+    border: none;
+    padding: 12px;
+    width: 52%;
+    border-radius: 11px;
+
+}
+/* contactus form end */
+/*hero css*/
+.hero-img-div{
+    position: relative;
+    ;
+}
+.hero-im-text-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.hero-img{
+    height: 550px;
+}
+/*footer css start*/
+footer{
+    background: #103057;
+    color: white;
+}
+footer ul li{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: normal;
+
+}
+footer h5{
+    font-weight: bold;
+    font-size: 22px;
+ }
+ .footor-icon{
+    margin-right: 10px;
+ }
+ hr{
+    color: #495979;
+    background: #495979;
+    border: #495979;
+    width: 100%;
+ }
