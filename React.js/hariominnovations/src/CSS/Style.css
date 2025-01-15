@@ -63,6 +63,22 @@ ul{
 .hero-img{
     height: 550px;
 }
+/*About us Start*/
+.about-img-2{
+    position: relative;
+    ;
+}
+.about-img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.about-img{
+    height: 550px;
+}
+
+/*About us End*/
 /*footer css start*/
 footer{
     background: #103057;
