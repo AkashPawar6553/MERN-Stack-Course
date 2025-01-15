@@ -8,12 +8,19 @@ import dash from "./../image/dash.png"
 import callus from "./../image/callus.png"
 import email from "./../image/email.png"
 import location2 from "./../image/location2.png"
+import footerFacebook from "./../image/footerFacebook.png"
+import footerTwiter from "./../image/footerTwiter.png"
+import footerInstagram from "./../image/footerInstagram.png"
+import contactUsLinkedin from "./../image/contactUsLinkedin.png"
+import contactUsInstagram from "./../image/contactUsInstagram.png"
+import contactUsFacebook from "./../image/contactUsFacebook.png"
+import contactUsTwiter from "./../image/contactUsTwiter.png"
+
 const ContactUs = () => {
     return (
         <div>
             <div className="container">
                 <MainNavBar />
-                <h1>form</h1>
             </div>
             <div className="hero-img-div">
                 <img src={hero} className="hero-img" />
@@ -72,8 +79,18 @@ const ContactUs = () => {
                         </div>
                     <div className="row">
                         <div className="col-md-12">
-                            <h3>Follow Us</h3>
-                            <h1>img</h1>
+                            <div>
+                            <h3 className="contactUs-last-hedding">Follow Us</h3>
+                            </div>
+                            <br/>   
+                            <div>
+                                <img src={contactUsLinkedin} />
+                                <img src={contactUsInstagram} />
+                                <img src={contactUsFacebook} />
+                                <img src={contactUsTwiter} />
+                            </div>
+                            
+                            
                         </div>
 
                     </div>
@@ -207,7 +224,19 @@ const ContactUs = () => {
                                 </li>
                             </ul>
                         </div>
+                        <hr />
+                        <div className="pd-3 copy-right-div">
+                            <span>Copyright: © 2024 By Hariom Innovations</span>
 
+                            <div>
+                            <img src={footerFacebook} className="Social-icon-footer"/>
+                            <img src={footerTwiter} className="Social-icon-footer"/>
+                            <img src={footerInstagram} className="Social-icon-footer"/>
+                        
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
