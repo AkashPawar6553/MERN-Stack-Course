@@ -66,3 +66,4 @@ return (
         </div>
 )
 }
+export default MainPage;
