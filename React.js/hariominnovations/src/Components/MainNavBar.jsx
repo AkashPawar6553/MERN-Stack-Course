@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "./../image/Logo.png"
 import Arrow from "./../image/Arrow.png"
+import { Link } from 'react-router-dom';
 
 const MainNavBar = () => {
   return (
@@ -24,7 +25,7 @@ const MainNavBar = () => {
             navbarScroll
           >
             <Nav.Link className='Nav-link' >Home</Nav.Link>
-            <Nav.Link className='Nav-link'>AboutUs</Nav.Link>
+            <Nav.Link className='Nav-link'><Link to="aboutus"> AboutUs</Link></Nav.Link>
             <Nav.Link className='Nav-link'>Services</Nav.Link>
             <Nav.Link className='Nav-link'>Careers</Nav.Link>
             <Nav.Link className='Nav-link'>Case Studies</Nav.Link>
