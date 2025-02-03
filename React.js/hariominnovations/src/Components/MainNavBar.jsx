@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 const MainNavBar = () => {
   return (
     <div>
+      
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">
@@ -24,8 +25,8 @@ const MainNavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='Nav-link' >Home</Nav.Link>
-            <Nav.Link className='Nav-link'><Link to="aboutus"> AboutUs</Link></Nav.Link>
+            <Nav.Link className='Nav-link'><Link to="/"> Home</Link></Nav.Link>
+            <Nav.Link className='Nav-link'><Link to="/Aboutus"> AboutUs</Link></Nav.Link>
             <Nav.Link className='Nav-link'>Services</Nav.Link>
             <Nav.Link className='Nav-link'>Careers</Nav.Link>
             <Nav.Link className='Nav-link'>Case Studies</Nav.Link>
@@ -33,7 +34,7 @@ const MainNavBar = () => {
           </Nav>
           <div className="d-flex">
             
-            <Button className='Button'>Contactus</Button>
+            <Button className='Button'><Link to="/ContactUS"> ContactUS</Link></Button>
           </div>
           <img src={Arrow} className='Arrow'/>
         </Navbar.Collapse>

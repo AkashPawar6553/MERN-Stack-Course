@@ -136,3 +136,9 @@ hr{
     margin-top: 100px;
     display: flex;
 }
+.Main-mission-container{
+    border: 1px solid #ef7f22;
+}
+.Sub-title{
+    display: flex;
+}
