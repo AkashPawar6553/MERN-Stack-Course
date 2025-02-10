@@ -137,8 +137,23 @@ hr{
     display: flex;
 }
 .Main-mission-container{
-    border: 1px solid #ef7f22;
+    /* border: 1px solid #ef7f22; */
+    display: flex;
+
 }
 .Sub-title{
     display: flex;
+}
+.first-mission-div{
+    border: 1px solid #080808;
+    margin: 50px;
+}
+.second-mission-div{
+    border: 1px solid #080808;
+    margin: 50px;
+   
+}
+.Third-mission-div{
+    border: 1px solid #080808;
+    margin: 50px;
 }

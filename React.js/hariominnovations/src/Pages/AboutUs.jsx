@@ -52,10 +52,10 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="Main-mission-container">
                                 <div className="col-md-4">
-                                    
+                                    <div className='first-mission-div'>
                                         <div>
-                                            <img src={mission} className='First-mission-img'/>
-                                            </div>
+                                            <img src={mission} className='First-mission-img' />
+                                        </div>
                                         <div>
                                             <h1 className="Sub-title">Our Mission</h1>
                                             <p>
@@ -63,26 +63,41 @@ const AboutUs = () => {
                                             </p>
                                         </div>
                                     </div>
+                                </div>
                                 <div className="col-md-4">
-                                <div>
-                                            <img src={mission} className='First-mission-img'/>
-                                            </div>
+                                    <div className='second-mission-div'>
+                                        <div>
+                                            <img src={mission} className='First-mission-img' />
+                                        </div>
                                         <div>
                                             <h1 className="Sub-title">Our Mission</h1>
                                             <p>
                                                 At Hariom, we will act as client's trusted advisor specializing in areas of technology and digital services to help achieve their business success.
                                             </p>
                                         </div>
-                                    
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className='Third-mission-div'>
+                                        <div>
+                                            <img src={mission} className='First-mission-img' />
+                                        </div>
+                                        <div>
+                                            <h1 className="Sub-title">Our Mission</h1>
+                                            <p>
+                                                At Hariom, we will act as client's trusted advisor specializing in areas of technology and digital services to help achieve their business success.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
                     <div>
-                         <div className='container'>
-                        {/* <img src={requestimg} /> */}
-                    </div>
+                        <div className='container'>
+                            {/* <img src={requestimg} /> */}
+                        </div>
                     </div>
                 </div>
 
@@ -207,10 +222,10 @@ const AboutUs = () => {
                             <span>Copyright: © 2024 By Hariom Innovations</span>
 
                             <div>
-                            <img src={footerFacebook} className="Social-icon-footer"/>
-                            <img src={footerTwiter} className="Social-icon-footer"/>
-                            <img src={footerInstagram} className="Social-icon-footer"/>
-                        
+                                <img src={footerFacebook} className="Social-icon-footer" />
+                                <img src={footerTwiter} className="Social-icon-footer" />
+                                <img src={footerInstagram} className="Social-icon-footer" />
+
 
                             </div>
 
