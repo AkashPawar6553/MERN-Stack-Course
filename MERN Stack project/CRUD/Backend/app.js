@@ -15,10 +15,7 @@ app.use(express.json()); // Enable parsing of JSON request bodies
 
 // Connect to MongoDB database
 mongoose
-  .connect("mongodb://localhost:27017/crud-db", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://127.0.0.1:27017/crud-db")
   .then(() => console.log("MongoDB Connected")) // Success message if connection is successful
   .catch((err) => console.log("MongoDB Connection Error:", err)); // Error message if connection fails
   
