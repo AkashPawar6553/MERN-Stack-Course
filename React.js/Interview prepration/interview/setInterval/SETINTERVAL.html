@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>setinterval</title>
+</head>
+<div id="mydiv"></div>
+<button type="button" id ="mybtn">Clear</button>
+<body>
+    <script>
+       var intervalID = setInterval (() => {
+            document.getElementById("mydiv").textContent += " Shree Swmi Samarth";
+        }
+        , 1000); 
+            
+        function clrtime() {
+            clearInterval(intervalID);
+        }
+        document.getElementById("mybtn").addEventListener("click", clrtime);
+    </script>
+
+</body>
+</html>
