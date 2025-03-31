@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Input Tags In HTML</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        input{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- color and button tag -->
+    <form action="" method="get">
+        <label for="color">Choose Your Favourite Color</label><br><br>
+        <input type="color" name="color" id="color" value="#5d5d5d"><br><br>
+        <button>Submit</button><br><br>
+
+        <!-- Date Tag -->
+        <label for="date">What is your date of birth</label><br><br>
+        <input type="date" name="date" id="date"><br><br>
+        
+        <!-- Datetime Tag -->
+        <label for="datetime">What is Current Time</label><br><br>
+        <input type="datetime-local" name="datetime" id="datetime"><br><br>
+
+        <!-- month And Year Tag  -->
+        <label for="month">What is Birth Month</label><br><br>
+        <input type="month" name="month" id="month"><br><br>
+
+        <!-- week Tag -->
+        <label for="week">Pick Your Week Year</label><br><br>
+        <input type="week" name="week" id="week"><br><br>
+
+        <!-- Email Tag -->
+        <label for="email">Enter Your Email</label><br><br>
+        <input type="email" name="email" id="email" placeholder="email" required><br><br>
+        
+        
+        <!-- Number Tag -->
+        <label for="Number">What Is Your Age ?</label><br><br>
+        <input type="Number" name="Number" id="Number" min="1" max="60"><br><br>
+
+        
+        <!-- URl Tag -->
+        <label for="url">What Is Your Website Link ?</label><br><br>
+        <input type="url" name="website" id="website" placeholder="https://example.com" required><br><br>
+        <br><br>
+
+        <!-- TEl Tag -->
+        <label for="mobile">What Is Your Mobile NO ?</label><br><br>
+        <input type="tel" name="mobile" id="mobile" pattern="[+91][10]"><br><br>
+
+        <!-- Range Tag -->
+        <label for="Range">What Is Your Mobile Price Range ?</label><br><br>
+        <input type="Range" name="Range" id="Range"  min="4000" max="150000"  onchange="updateTextInput(this.value);">
+        <br><br>
+        <input type="text" id="textInput" value="">
+        <br><br>
+
+        <!-- TEXT Tag -->
+        <label for="text">Enter Your First Name</label><br><br>
+        <input type="text" name="text" id="text" placeholder="Name"><br><br>
+
+        <!-- Password Tag -->
+        <label for="Password">Enter Your Password</label><br><br>
+        <input type="Password" name="Password" id="Password" placeholder="*******"><br><br>
+
+        <!-- Checkbox Tag -->
+        <label for="Checkbox">Select The Check Box For Process</label><br><br>
+        <input type="Checkbox" name="Checkbox" id="Checkbox"><br><br>
+
+        <!-- Reset Tag -->
+        <label for="Reset">Press The Button For Clear The Field</label><br><br>
+        <input type="Reset" name="Reset" id="Reset"><br><br>
+         
+        <!-- Search Tag -->
+        <label for="Search">Enter The For Search</label><br><br>
+        <input type="Search" name="Search" id="Search"><br><br>
+         
+
+        <!-- submit Tag --> 
+        <label for="submit">Submit The Changes</label><br><br>
+        <input type="submit" name="submit" id="submit"><br><br>
+         
+        <!-- Radio Tag -->
+        <label for="radio">Select On Form Given</label><br><br>
+        <input type="radio" name="color" id="red">red<br><br>
+        <input type="radio" name="color" id="green">green<br><br>
+        <input type="radio" name="color" id="black">black<br><br>
+
+        <!-- File Tag --> 
+        <label for="file">Select File Form The Device</label><br><br>
+        <input type="file" name="file" id="file" multiple><br><br>
+         
+        <!-- image Tag --> 
+        <label for="image">what Is your nme</label><br><br>
+        <input type="image" name="image" src="login-img.png" width="100px" id="image" value="submit" ><br><br>
+
+        <!-- hidden Tag --> 
+        <label for="hidden">hide some thing</label><br><br>
+        <input type="hidden" name="hidden" id="hidden"><br><br>
+
+    </form>
+    <script>
+        function updateTextInput(val) {
+          document.getElementById('textInput').value=val; 
+        }
+    </script>
+</body>
+</html>
