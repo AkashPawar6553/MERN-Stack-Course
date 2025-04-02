@@ -3,6 +3,7 @@ import './App.css';
 import ChildA from './Props/ChildA';
 import Videocomponent from './VideoExample/Video';
 import 'react-html5video/dist/styles.css';
+import Audiocomponent from './AudioExample/Audiocomponent';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       {/* <h1> Props Driling</h1> */}
       {/* <ChildA name={name} /> */}
       <Videocomponent/>
+      <Audiocomponent/>
     </>
   );
 }
