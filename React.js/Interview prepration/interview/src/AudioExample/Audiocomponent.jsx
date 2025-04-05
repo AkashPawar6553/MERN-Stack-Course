@@ -6,4 +6,4 @@ const Audiocomponent = () => {
   )
 }
 
-export default Audiocomponent
+export default Audiocomponent;
