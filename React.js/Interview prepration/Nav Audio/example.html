@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar Audio</title>
+    <style type="text/css">
+        *{
+            text-decoration: none;
+        }
+        .navbar{
+           background: crimson; font-family: Calibri; padding-right: 15px; padding-left: 15px;
+        }
+        .navdiv{
+            display: flex; justify-content: space-between; align-items: center; 
+        }
+        .logo a{
+            font-size: 35px; font-weight: 300; color: white;
+        }
+        li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color: white; font-size: 18px; font-weight: bold;margin-right: 10px;
+        }
+        button{
+            background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px;width: 90px;
+        }
+        button a{
+            color: white; font-size: 15px; font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">NavBar</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+                <button><li><a href="#">Sign In</a></li></button>
+                <button><li><a href="#">Sign Up</a></li></button>
+            </ul>
+
+        </div>
+    </nav>
+    <br><br>
+    <!-- Audio Tag -->
+    <div>
+        <audio controls>
+            <source src="shreeswmi.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <br><br>
+    <!-- Aside Tag -->
+    <div>
+        <article style="width: 65%; float: left; padding: 30px;">
+            <h2>About React</h2>
+            <p>
+                React is a JavaScript library, developed by Meta (formerly Facebook), used for building user interfaces,
+                especially for web applications, known for its component-based architecture and efficient rendering.
+            </p>
+            <p>
+                <p>* What it is:
+                    React is a JavaScript library, not a framework, focusing on building user interfaces by creating reusable,
+                    self-contained components.
+                </p>
+                <p>
+                    * Component-Based:
+                React applications are built using components, which are essentially JavaScript functions that return
+                HTML-like structures (JSX).
+                </p>
+                <p>
+                    * JSX:
+                React uses JSX, a syntax extension to JavaScript, that allows you to write HTML-like code within your
+                JavaScript code, making it easier to define UI elements.
+                </p>
+                <p>
+                    * Virtual DOM:
+                React uses a virtual DOM (Document Object Model) to efficiently update the user interface. Instead of
+                directly manipulating the browser's DOM, React creates a virtual representation, making changes, and then
+                updates the actual DOM only when necessary, leading to faster performance.
+                </p>
+                <p>
+                    * One-way Data Binding:
+                React uses one-way data binding, meaning data flows from parent to child components. Child components can't
+                directly modify parent component data, promoting a predictable and manageable data flow.
+                Reusability:
+                </p>
+            </p>
+        </article>
+            <aside style="width: 25%; float: right; background-color:gray; color: white; padding: 25px;">
+                <img
+                src="loginlogo.png"
+                
+            
+                />
+            </aside>
+    </div>
+    <br><br>
+</body>
+</html>

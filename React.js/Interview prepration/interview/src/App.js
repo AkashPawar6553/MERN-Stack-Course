@@ -14,8 +14,8 @@ const App = () => {
       {/* <h1> Props Driling</h1> */}
       {/* <ChildA name={name} /> */}
       <Videocomponent/>
-      {/* <Audiocomponent/> */}
-      <Navbar/>
+      <Audiocomponent/>
+      {/* <Navbar/> */}
     </>
   );
 }
