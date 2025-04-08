@@ -18,3 +18,37 @@ function calculator(a, b, sumcallback) {
 
 }
 calculator(5, 10, sum);
+
+let promise = new Promise((resolve, reject) => {
+
+    console.log("I am a promise");
+    // resolve("Success");
+   reject("some Error");
+
+})
+
+function getData(dataId,getNextData) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("data",dataId);
+            resolve("Success");
+            if (grtNextData){
+                getNextData();
+            }
+        },4000);
+
+    })
+} 
+
+function api () {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        console.log("Wether data");  
+      resolve(200);
+      },3000);
+    });
+}
+
+async function getWetherData() {
+    await api();
+}
